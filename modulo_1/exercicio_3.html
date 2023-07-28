@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <script>
+            var primeiro_num = prompt("Informe o primeiro numero: ");
+            var operacao = prompt("Informe qual operação gostaria de executar: ");
+            
+            while(operacao != '+' && operacao != '-' && operacao != '/' && operacao != '*'){
+                alert('De novo mano?!, coloca um sinal certo a... na moral memo');
+                operacao = prompt("Informe qual operação gostaria de executar: ");
+            }
+            var segundo_num = prompt("Informe o segundo numero: ")
+            
+            primeiro_num = parseInt(primeiro_num);
+            segundo_num = parseInt(segundo_num);
+            var resultadoFinal = 0;
+
+            if(operacao == '+'){
+                alert(resultadoFinal = primeiro_num + segundo_num);
+            }else if(operacao == '-'){
+                alert(resultadoFinal = primeiro_num - segundo_num);
+            }else if(operacao == '/'){
+                alert(resultadoFinal = primeiro_num / segundo_num);
+            }else if(operacao == '*'){
+                alert(resultadoFinal = primeiro_num * segundo_num);
+            }
+        </script>
+    </body>
+</html>

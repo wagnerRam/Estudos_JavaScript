@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <script>
+            var ano = 2023;
+            var nome = prompt("qual é o seu nome? ");
+            var ano_nascimento = prompt("Poderia informar seu ano de nascimento: ");
+
+            while(ano_nascimento >= ano){
+                alert('Por favor, babaca... informe uma data certa!!! ');
+                var ano_nascimento = prompt('Informe seu ano de nascimento');
+            }
+            
+            soma = ano - ano_nascimento;
+            alert('Vamos ver se descobri sua idade, voce nasceu no ano de '+ ano_nascimento);
+            alert('Logo sua idade é: '+soma);
+        </script>
+    </body>
+</html>
